@@ -1,0 +1,33 @@
+<!-- res/layout/dialog_game_mode.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <!-- Title: GAMEMODE -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GAMEMODE"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"/>
+
+    <!-- Against AI Button -->
+    <Button
+        android:id="@+id/buttonAgainstAI"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Against AI"
+        android:layout_marginBottom="10dp"/>
+
+    <!-- Two Players Button -->
+    <Button
+        android:id="@+id/buttonTwoPlayers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Two Players"/>
+</LinearLayout>

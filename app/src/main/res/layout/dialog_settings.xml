@@ -1,0 +1,32 @@
+<!-- res/layout/dialog_settings.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- BGM Switch -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Background Music"
+        android:textSize="18sp"/>
+
+    <Switch
+        android:id="@+id/switchBgm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <!-- SFX Switch -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sound Effects"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp"/>
+
+    <Switch
+        android:id="@+id/switchSfx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
